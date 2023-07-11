@@ -1,4 +1,5 @@
-FROM ghcr.io/pangtao22/quasistatic_simulator_base:main
+#FROM ghcr.io/pangtao22/quasistatic_simulator_base:main
+FROM ghcr.io/berkc8/qp:main
 
 # TODO: replace copy with instllation.
 COPY models $QSIM_PATH/models
